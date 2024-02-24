@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>super cool website</title>
+        <title>super duper cool website</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
+        <link rel="icon" type="image/jpg" href="imgs/gojo_favicon.jpg"> <!--not working rn???-->
 
-        <h3>My github:</h3>
-
-        <a href="https://github.com/Meiscool125",
-        target="_blank",
-        title = "Goes to my github!">
-        Github hyperlink
+        <a href = "extras.html">
+            Extras Website  
         </a>
-        
         
         <h3>Literally me:</h3> 
         <a href = "https://wallpapersafari.com/gojo-pfp-wallpapers/",
@@ -29,6 +26,103 @@
         </audio>
 
         <h3>Ancient Clip:</h3>
-        <video src = "/videos/ancient loves nuts.mp4" height = "500px" controls></video>
+            <a href="https://www.youtube.com/@ancientignisgaming1756" target = "_blank">
+            <video src = "/videos/ancient loves nuts.mp4" height = "500px" controls></video>
+        </a>
+        <br>
+
+        <h1 class="coolStyle">CSS Text</h1>
+
+        <h2>Different text formatting:</h2>
+        <h4>This is <b>bold</b> text(cant really see it lol)</h4>
+        <h4>This is <i>italic</i> text</h4>
+        <h4>This is <u>underlined</u> text</h4>
+        <h4>This is <del>deleted</del> text</h4>
+        <h4>This is <big>big</big> text</h4>
+        <h4>This is <small>small</small> text</h4>
+        <h4>This is <sub>subscript</sub> text</h4>
+        <h4>This is <sup>superscript</sup> text</h4>
+        <h4>This is <tt>monospaced</tt> text</h4>
+        <h4>This is <mark style="background-color:lightgreen">marked</mark> text</h4>
+        <br>
+
+        <h1><span style="background-color: aqua;">This is a span title</span></h1>
+        <h1><div style="background-color:blue;">This is a div title</div></h1>
+        <br>
+
+        <ul>
+            <li>This is a unordered list item</li>
+            <li>This is another unordered list item</li>
+            <li>So is this!</li>
+            <ul>
+                <li>But now I want a subset of "so is this"...</li>
+                <li>And this is how to do it!</li>
+            </ul>
+        </ul>
+        <br>
+
+        <ol>
+            <li>This is an ordered list item</li>
+            <li>This is another ordered list item</li>
+            <li>So is this!</li>
+            <ol>
+                <li>But now I want a subset of "so is this"...</li>
+                <li>And this is how to do it!</li>
+            </ol>
+        </ol>
+        <br>
+
+        <dl style="background-color: blueviolet; border:3px solid">
+            <dt>These are</dt>
+            <dd>description lists</dd>
+            <br>
+            <dt>skibidi toilet</dt>
+            <dd>the best tv show ever</dd>
+            <br>
+            <dt>fanum tax</dt>
+            <dd>the funniest thing ever</dd>
+            <br>
+            <dt>rizzler</dt>
+            <dd>w rizz chat?</dd>
+            <br>
+        </dl>
+
+        <h3>Tables:</h3>
+        <table border="2" style="background-color: black;">
+            <tr align="center" style="background-color: lightblue;">
+               <th>Row 1</th>
+               <th>Row 2</th> 
+               <th>Row 3</th> 
+               <th>Row 4</th> 
+               <th>Row 5</th> 
+            </tr>
+            <tr align = "center" style="background-color: aliceblue;"">
+                <td>Cell 1</td>
+                <td>Cell 2</td> 
+                <td>Cell 3</td> 
+                <td>Cell 4</td> 
+                <td>Cell 5</td>
+            </tr>
+        </table>
+        <br>
+
+        <a href="https://www.youtube.com/watch?v=HGTJBPNC-Gw"; target="_blank">
+            <button style="font-size:20px; background-color: grey; border-radius: 15px">HTML/CSS Coding Tutorial!</button>
+        </a>
+        <br>
+        <br>
+
+        <form action="index.php" method="POST">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <br>
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <br>
+            <input type="password" name="password" placeholder="Enter your password" required>
+            <br>
+            <input type="submit" value="Submit form">
+            <br>
+            <input type="reset" value="Reset form">
+        </form>
+
     </body>
 </html>
