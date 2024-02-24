@@ -12,9 +12,11 @@
     padding: 20px;
     border: 3px solid black;
     background: lightblue;
+    box-shadow: 5px 5px 3px rgb(15, 15, 15);
+    border-radius: 20px;
 }
 
-.profileCardStyle img {
+.profileCardStyle img{
     margin-left: auto; /* Auto margin on the left side pushes the image to the right */
     border-radius: 70%;
     margin-top: -10px;
@@ -22,15 +24,18 @@
 
 .hyperlinkStyle {
     text-decoration: none !important;
-    color: rgb(32, 32, 190);
+    color: rgba(240, 128, 128, 0.973);
     font-weight: bold;
     font-size: x-large;
-    padding-left: 10px;
     margin-top: -20px;
-    margin-right: 10px;
+    font-family: Anta, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 .hyperlinkStyle:hover{
-    color:rgb(139, 36, 187);
+    color:rgba(255, 135, 135);
+}
+
+#My-Github-Hyperlink{
+    text-shadow: 2px 2px 4px black
 }
