@@ -14,14 +14,20 @@
     background: lightblue;
     box-shadow: 5px 5px 3px rgb(15, 15, 15);
     border-radius: 20px;
+    flex-direction: column; 
 }
 
 .profileCardStyle img{
     margin-left: auto; /* Auto margin on the left side pushes the image to the right */
-    border-radius: 70%;
+    align-self: flex-start;
     margin-top: -10px;
+    border-radius: 70%;
+    justify-content: flex-start;
 }
 
+.shortText{
+    max-width: 22%;
+}
 .hyperlinkStyle {
     text-decoration: none !important;
     color: rgba(240, 128, 128, 0.973);
@@ -31,11 +37,29 @@
     font-family: Anta, Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.hyperlinkContainer{
+    max-width: 22%;
+
+}
+
+.profileCardImg{
+    display: flex;
+    padding-left: 80%;
+    margin-top: -19%;
+    max-width: 20%;
+}
 
 .hyperlinkStyle:hover{
     color:rgba(255, 135, 135);
 }
 
 #My-Github-Hyperlink{
-    text-shadow: 2px 2px 4px black
+    text-shadow: 2px 2px 4px black;
+}
+
+#Name{
+    margin-top: -10px;
+    margin-bottom: auto; /* Adjust this value as needed */
+    font-family: Anta, Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(66, 123, 173);
 }
